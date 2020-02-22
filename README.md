@@ -1,3 +1,8 @@
 # Pierwsza strona WWW
 
-Moje pierwsza zabawa z tworzeniem stron internetowych.
+Moja pierwsza zabawa z tworzeniem stron internetowych.
+
+## Technologie
+
+* HTML5
+* CSS3
