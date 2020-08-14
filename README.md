@@ -1,13 +1,11 @@
-# Pierwsza strona WWW
+# BestShop
+My first website.
 
-Moja pierwsza zabawa z tworzeniem stron internetowych.
-
-## Technologie
-
+## Technologies
 * HTML5
 * CSS3
+* JavaScript
+* Gulp Sass
 
-## TODO
-
-* struktura HTML
-* struktura CSS
+## Demo
+https://jaroslaw91.github.io/BestShop/
