@@ -1,0 +1,65 @@
+.stats {
+    text-align: center;
+    .boxes-stats {
+        margin: 0 auto;
+        width: 1000px;
+        margin-top: 75px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+        flex-wrap: wrap;
+        @include mobile {
+            width: 100%;
+        }
+        @include tablet {
+            width: 100%;
+        }
+        .box-stats {
+            margin: 40px;
+            padding-bottom: 20px;
+            width: 176px;
+            text-align: center;
+            i {
+                margin: 0 auto;
+                width: 62px;
+                height: 62px;
+                border-radius: 100px;
+                background-color: $main-color-1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+            i::before  {
+                content: url(../img/person.svg);
+                right: -12px;
+                position: absolute;
+            }
+            &:nth-child(2) i { 
+                background-color: $main-color-2;
+            }
+            &:nth-child(2) i::before  {
+                content: url(../img/eye.svg);
+                right: -22px;
+             }
+             &:nth-child(3) i { 
+                background-color: $main-color-3;
+            }
+            &:nth-child(3) i::before  {
+                content: url(../img/catalog.svg);
+                right: -20px;
+             }
+             h3 {
+                margin: 13px 0 19px 0;
+                font-weight: 800;
+                letter-spacing: 6px;
+            }
+            p {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+                font-size: 1.0625rem;
+                color: $menu-txt-color;
+            }
+        }
+    }
+}

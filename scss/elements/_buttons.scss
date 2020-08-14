@@ -1,0 +1,22 @@
+.btn {
+    padding: 22px;
+    width: 440px;
+    background-color: #08A6E4;
+    border: 0;
+    border-radius: 100px;
+    color: #FFF;
+    font-weight: 700;
+    display: block;
+    box-shadow: 5px 10px 14px #07ACE629;
+    @include mobile {
+        margin: 0;
+        width: 100%;
+    }
+    &:hover {
+        background-color: #55DFB4;
+        transition: .5s;
+    }
+    &:active {
+        box-shadow: inset 0px 0px 2px 4px rgba(0,0,0,0.05);
+    }
+}

@@ -6,3 +6,8 @@ Moja pierwsza zabawa z tworzeniem stron internetowych.
 
 * HTML5
 * CSS3
+
+## TODO
+
+* struktura HTML
+* struktura CSS

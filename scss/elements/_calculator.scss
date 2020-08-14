@@ -1,0 +1,10 @@
+.calc {
+    background-color: $section-bg-color;
+    text-align: center;
+    .container {
+        width: 875px;
+        .calc-info {
+            width: 440px;
+        }
+    }
+}
